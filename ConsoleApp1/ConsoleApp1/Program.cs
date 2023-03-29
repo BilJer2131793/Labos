@@ -10,6 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Simlateur simulateur = new Simlateur();
+            simulateur.StartSimulation();
+            Console.ReadLine();
         }
     }
 }
